@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<dimen name="kuan">20sp</dimen>
+    <dimen name="biligao">20sp</dimen>
+    <dimen name="hp">25%</dimen>
+</resources>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="25%"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview1"
+            android:gravity="end|bottom"
+            android:textSize="30sp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            app:layout_heightPercent="45%"
+            android:layout_height="0dp" />
+        <TextView
+
+            android:textSize="40sp"
+            android:id="@+id/textview2"
+            android:gravity="end|bottom"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            app:layout_heightPercent="55%"
+            android:layout_height="0dp" />
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    <com.zhy.android.percent.support.PercentLinearLayout
+     android:layout_width="match_parent"
+     app:layout_heightPercent="15%"
+     android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="wrap_content"
+            android:textColor="@color/yellow"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="("
+            android:textSize="@dimen/kuan"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="20%" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:textColor="@color/yellow"
+         android:layout_height="wrap_content"
+         android:background="@color/white"
+         android:text=")"
+         android:textSize="@dimen/kuan"
+         app:layout_heightPercent="100%"
+         app:layout_marginPercent="0%"
+         app:layout_widthPercent="20%" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button1"
+        android:background="@color/white"
+        android:text="C"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/kuan"
+        app:layout_heightPercent="100%"
+        app:layout_marginPercent="0%"
+        app:layout_widthPercent="20%" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="del"
+        android:textSize="@dimen/kuan"
+        android:textColor="@color/yellow"
+        android:layout_toRightOf="@id/button2"
+        android:background="@color/white"
+        app:layout_heightPercent="100%"
+        app:layout_marginPercent="0%"
+        app:layout_widthPercent="20%" />
+    <Button
+        android:id="@+id/button4"
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="@dimen/kuan"
+        android:layout_toRightOf="@id/button3"
+        android:background="@color/white"
+        app:layout_heightPercent="100%"
+        app:layout_marginPercent="0%"
+        app:layout_widthPercent="20%" />
+ </com.zhy.android.percent.support.PercentLinearLayout>
+    <com.zhy.android.percent.support.PercentLinearLayout
+    android:layout_width="match_parent"
+        app:layout_heightPercent="15%"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button5"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="7"
+        android:textSize="@dimen/kuan"
+        app:layout_heightPercent="100%"
+        app:layout_marginPercent="0%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button5"
+        android:background="@color/white"
+        android:text="8"
+        android:textSize="@dimen/kuan"
+        app:layout_heightPercent="100%"
+        app:layout_marginPercent="0%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textSize="@dimen/kuan"
+        android:layout_toRightOf="@id/button6"
+        android:background="@color/white"
+        app:layout_heightPercent="100%"
+        app:layout_marginPercent="0%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/kuan"
+        android:layout_toRightOf="@id/button7"
+        android:background="@color/white"
+        app:layout_heightPercent="100%"
+        app:layout_marginPercent="0%"
+        app:layout_widthPercent="25%" />
+</com.zhy.android.percent.support.PercentLinearLayout>
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="15%"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="4"
+            android:textSize="@dimen/kuan"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/button9"
+            android:background="@color/white"
+            android:text="5"
+            android:textSize="@dimen/kuan"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="@dimen/kuan"
+            android:layout_toRightOf="@id/button10"
+            android:background="@color/white"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/kuan"
+            android:layout_toRightOf="@id/button11"
+            android:background="@color/white"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="15%"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="1"
+            android:textSize="@dimen/kuan"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/button13"
+            android:background="@color/white"
+            android:text="2"
+            android:textSize="@dimen/kuan"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="@dimen/kuan"
+            android:layout_toRightOf="@id/button14"
+            android:background="@color/white"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="@color/yellow"
+
+            android:textSize="@dimen/kuan"
+            android:layout_toRightOf="@id/button15"
+            android:background="@color/white"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="15%"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button17"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="0"
+            android:textSize="@dimen/kuan"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="50%" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/button17"
+            android:background="@color/white"
+            android:text="."
+            android:textSize="@dimen/kuan"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textColor="@color/white"
+            android:textSize="@dimen/kuan"
+            android:layout_toRightOf="@id/button18"
+            android:background="@color/yellow"
+            app:layout_heightPercent="100%"
+            app:layout_marginPercent="0%"
+            app:layout_widthPercent="25%" />
+
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>
