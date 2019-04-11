@@ -14,14 +14,14 @@
         <TextView
             android:id="@+id/textview1"
             android:gravity="end|bottom"
-            android:textSize="30sp"
+            android:textSize="35sp"
             android:background="@color/white"
             android:layout_width="match_parent"
             app:layout_heightPercent="45%"
             android:layout_height="0dp" />
         <TextView
 
-            android:textSize="40sp"
+            android:textSize="45sp"
             android:id="@+id/textview2"
             android:gravity="end|bottom"
             android:background="@color/white"
@@ -262,7 +262,6 @@
 
         <Button
             android:id="@+id/button17"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/white"
